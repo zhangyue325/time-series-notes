@@ -26,9 +26,9 @@ Under the conditions of the regression model, the least squares estimators $b_{0
 **Classical linear regression model CLRM** <br>
 
 assumptions:
-* $ Var(u_{t})=\sigma^{2}<\infty $
-* $ Cov(u_{t}, u_{j})=0 $ for $i\neq j $
-* $ u_{t} \sim N(0, \sigma^{2} $)
+* $Var(u_{t})=\sigma^{2}<\infty$
+* $Cov(u_{t}, u_{j})=0 $ for $i\neq j$
+* $u_{t} \sim N(0, \sigma^{2}$)
 
 $ \sigma^{2} $ is constant, this is known as homoscedasticity. <br>
 $ \sigma^{2} $ is not  constant, this is known as heteroscedastic. <br>
