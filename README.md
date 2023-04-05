@@ -66,9 +66,9 @@ a stationary process should have a constant
 mean, a constant variance and a constant autocovariance structure,
 respectively.<BR>
 
-    *$ E(y_{t})=\mu$
-    *$ E(y_{t} - \mu)(y_{t} - \mu) = \sigma_{}^{2} <  \infty$
-    *$ E(y_{t_{1}} - \mu)(y_{t_{2}} - \mu) = \gamma_{t_{2}-t_{1}}$ <br>
+    *$E(y_{t})=\mu$
+    *$E(y_{t} - \mu)(y_{t} - \mu) = \sigma_{}^{2} <  \infty$
+    *$E(y_{t_{1}} - \mu)(y_{t_{2}} - \mu) = \gamma_{t_{2}-t_{1}}$ <br>
     
     if $\tau_{s} = \gamma_{s} / \gamma_{0}$ is plotted against s=0,1,2..., a graph known as the **autocorrelation function (acf)** or correlogram is obtained.
 
@@ -77,9 +77,9 @@ respectively.<BR>
 a white noise process is one with no discernible
 structure.
 
-    * $ E(y_{t})=\mu $
-    * $ var(y_{t}) = \sigma_{}^{2}  $
-    * $ \gamma_{t-r} = \sigma_{}^{2}   $ if t=r;  $ \gamma_{t-r} = 0   $ otherwise
+    * $E(y_{t})=\mu$
+    * $var(y_{t}) = \sigma_{}^{2}$
+    * $\gamma_{t-r} = \sigma_{}^{2}$ if t=r;  $\gamma_{t-r} = 0$ otherwise
 
     thus a white noise process has constant mean and variance, and zero autocovariances, except at lag zero. <br>
     if we assume $\mu=0$ and $y_{t}$ is normally distributed. Meanwhile,  the sample autocorrelation coefficients follows  $$ \widetilde{\tau_{s}} \sim approx. N(0,1/T)$$ where T is the sample size. <br>
