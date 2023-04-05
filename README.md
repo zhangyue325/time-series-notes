@@ -27,11 +27,11 @@ Under the conditions of the regression model, the least squares estimators $b_{0
 
 assumptions:
 * $Var(u_{t})=\sigma^{2}<\infty$
-* $Cov(u_{t}, u_{j})=0 $ for $i\neq j$
+* $Cov(u_{t}, u_{j})=0$ for $i\neq j$
 * $u_{t} \sim N(0, \sigma^{2}$)
 
-$ \sigma^{2} $ is constant, this is known as homoscedasticity. <br>
-$ \sigma^{2} $ is not  constant, this is known as heteroscedastic. <br>
+$\sigma^{2}$ is constant, this is known as homoscedasticity. <br>
+$\sigma^{2}$ is not  constant, this is known as heteroscedastic. <br>
 GQ(Goldfeld-Quandt) Test and and White's Test can detect heteroscedasticity. <br>
 GQ Test Null hypothesis H0: the error terms are homoscedastic.<br>
 If the form of the heteroscedasticity is known, we should use (generalised least squares)GLS ((weighted least squares)WLS) instead of OLS.<br>
