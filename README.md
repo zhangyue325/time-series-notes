@@ -1,7 +1,7 @@
 # time-series-notes
 
 # Regression
-For simple linear regression model (popluation) $$ E(Y)=\beta_{0}+\beta_{1}X $$ <BR>
+For simple linear regression model (popluation) $$E(Y)=\beta_{0}+\beta_{1}X$$ <BR>
 We can then estimate $E(Y)$ by $\widehat{Y}$ from sample regression equation <br> $$\widehat{Y}=b_{0}+b_{1}X$$
 
 
