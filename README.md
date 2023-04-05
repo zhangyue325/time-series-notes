@@ -27,11 +27,11 @@ Under the conditions of the regression model, the least squares estimators $b_{0
 
 assumptions:
 * $Var(u_{t})=\sigma^{2}<\infty$
-* $Cov(u_{t}, u_{j})=0 $ for $i\neq j$
+* $Cov(u_{t}, u_{j})=0$ for $i\neq j$
 * $u_{t} \sim N(0, \sigma^{2}$)
 
-$ \sigma^{2} $ is constant, this is known as homoscedasticity. <br>
-$ \sigma^{2} $ is not  constant, this is known as heteroscedastic. <br>
+$\sigma^{2}$ is constant, this is known as homoscedasticity. <br>
+$\sigma^{2}$ is not  constant, this is known as heteroscedastic. <br>
 GQ(Goldfeld-Quandt) Test and and White's Test can detect heteroscedasticity. <br>
 GQ Test Null hypothesis H0: the error terms are homoscedastic.<br>
 If the form of the heteroscedasticity is known, we should use (generalised least squares)GLS ((weighted least squares)WLS) instead of OLS.<br>
@@ -66,9 +66,9 @@ a stationary process should have a constant
 mean, a constant variance and a constant autocovariance structure,
 respectively.<BR>
 
-    * $ E(y_{t})=\mu $
-    * $ E(y_{t} - \mu)(y_{t} - \mu) = \sigma_{}^{2} <  \infty $
-    * $ E(y_{t_{1}} - \mu)(y_{t_{2}} - \mu) = \gamma_{t_{2}-t_{1}} $ <br>
+    *$ E(y_{t})=\mu$
+    *$ E(y_{t} - \mu)(y_{t} - \mu) = \sigma_{}^{2} <  \infty$
+    *$ E(y_{t_{1}} - \mu)(y_{t_{2}} - \mu) = \gamma_{t_{2}-t_{1}}$ <br>
     
     if $\tau_{s} = \gamma_{s} / \gamma_{0}$ is plotted against s=0,1,2..., a graph known as the **autocorrelation function (acf)** or correlogram is obtained.
 
